@@ -31,6 +31,7 @@ public class Java8WatchService {
 		});
 	}
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public void processEvents() {
 		while (true) {
 			WatchKey key;
